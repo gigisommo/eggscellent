@@ -74,7 +74,8 @@
 
         tasksChanged = NO;
         int i = 1;
-        for(; i <= syncCount; i++)
+        int fetchedCount = syncCount;
+        for(; i <= fetchedCount; i++)
         {
             //set up id and name
             NSString *ID = [[IDs descriptorAtIndex:i] stringValue];
@@ -92,6 +93,12 @@
             //set up the tags
             NSNumber *plannedCount = [self extractPlannedCountFromTagNames:[[tagNames descriptorAtIndex:i] stringValue]];
             
+            //if no eggs or pomodoro was extracted, discard the task! We only want to show tasks with pomodoros set
+            if ([plannedCount integerValue] == 0) {
+                syncCount = syncCount - 1;
+                continue;
+            }
+            
             //set up source and piece it all together
             NSDictionary *syncDictionary = [NSDictionary dictionaryWithObjectsAndKeys:ID,@"ID",status,@"status",name,@"name", plannedCount, kPlannedCountKey, nil];
             
@@ -106,7 +113,7 @@
     tagNames = [tagNames lowercaseString];
     NSArray *tags = [tagNames componentsSeparatedByString:@","];
     
-    NSInteger plannedCount = 1;
+    NSInteger plannedCount = 0;
     for (NSString *tag in tags) {
         BOOL tagContainsEggs = [tag rangeOfString:@"eggs"].location != NSNotFound;
         BOOL tagContainsPomodoro = [tag rangeOfString:@"pomodoro"].location != NSNotFound;
