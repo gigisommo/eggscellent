@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		256F75261BDE9CD9001BE114 /* statusRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 256F75221BDE9CD9001BE114 /* statusRed.png */; };
+		256F75271BDE9CD9001BE114 /* statusRed 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 256F75231BDE9CD9001BE114 /* statusRed 2.png */; };
+		256F75281BDE9CD9001BE114 /* statusGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 256F75241BDE9CD9001BE114 /* statusGreen.png */; };
+		256F75291BDE9CD9001BE114 /* statusGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256F75251BDE9CD9001BE114 /* statusGreen@2x.png */; };
 		345E461A1A6DBE6A001F1454 /* clock.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 345E46181A6DBE6A001F1454 /* clock.m4a */; };
 		345E461B1A6DBE6A001F1454 /* gong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 345E46191A6DBE6A001F1454 /* gong.m4a */; };
 		3D0FDCE916ECED5800815B2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A5B401465F38500BFD7B2 /* main.m */; };
@@ -592,6 +596,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		256F75221BDE9CD9001BE114 /* statusRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusRed.png; sourceTree = "<group>"; };
+		256F75231BDE9CD9001BE114 /* statusRed 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusRed 2.png"; sourceTree = "<group>"; };
+		256F75241BDE9CD9001BE114 /* statusGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusGreen.png; sourceTree = "<group>"; };
+		256F75251BDE9CD9001BE114 /* statusGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusGreen@2x.png"; sourceTree = "<group>"; };
 		345E46181A6DBE6A001F1454 /* clock.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = clock.m4a; sourceTree = "<group>"; };
 		345E46191A6DBE6A001F1454 /* gong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = gong.m4a; sourceTree = "<group>"; };
 		3D0FDDE316ECED5800815B2C /* Eggscellent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eggscellent.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1474,6 +1482,10 @@
 			isa = PBXGroup;
 			children = (
 				477E65C0176B61A600D34EFB /* IsSecureIcon.png */,
+				256F75221BDE9CD9001BE114 /* statusRed.png */,
+				256F75231BDE9CD9001BE114 /* statusRed 2.png */,
+				256F75241BDE9CD9001BE114 /* statusGreen.png */,
+				256F75251BDE9CD9001BE114 /* statusGreen@2x.png */,
 				3DF9349C16D021C500A98287 /* status@2x.png */,
 				F47AE39514EEDBDD00DFAE19 /* status.png */,
 			);
@@ -2281,6 +2293,7 @@
 				F439380114AA913500FA1244 /* button-stop-down.png in Resources */,
 				F439380214AA913500FA1244 /* button-stop.png in Resources */,
 				F43A846714AA9A6600BA06D5 /* shadow.png in Resources */,
+				256F75291BDE9CD9001BE114 /* statusGreen@2x.png in Resources */,
 				F43A849B14AAAB5800BA06D5 /* button-minus-down.png in Resources */,
 				F43A849C14AAAB5800BA06D5 /* button-minus.png in Resources */,
 				F43A849D14AAAB5800BA06D5 /* button-plus-down.png in Resources */,
@@ -2296,6 +2309,7 @@
 				F4E2F2CD14FB30F100700D09 /* sync.png in Resources */,
 				F4E2F2CF14FB30F700700D09 /* tools.png in Resources */,
 				F481A37C14FDA3CC00AAF2E8 /* HistoryWindowController.xib in Resources */,
+				256F75261BDE9CD9001BE114 /* statusRed.png in Resources */,
 				F4E41247151ADA1300444C12 /* notes-button-yellow-down.png in Resources */,
 				F4E41248151ADA1300444C12 /* notes-button-yellow.png in Resources */,
 				F4E41249151ADA1300444C12 /* notes-close.png in Resources */,
@@ -2351,6 +2365,7 @@
 				3DFBE65415A26CA30006ABB2 /* ribbon5@2x.png in Resources */,
 				3DFBE65515A26CA30006ABB2 /* ribbon6@2x.png in Resources */,
 				3DFBE65615A26CA30006ABB2 /* ribbon7@2x.png in Resources */,
+				256F75281BDE9CD9001BE114 /* statusGreen.png in Resources */,
 				3DFBE65715A26CA30006ABB2 /* ribbon8@2x.png in Resources */,
 				3DDF88E615A2862D009AEFFC /* focus-card@2x.png in Resources */,
 				3D38EFC115A375A0003C1224 /* icon.iconset in Resources */,
@@ -2392,6 +2407,7 @@
 				3D47206A16D99651009204E2 /* 10_egg_hatch.aif in Resources */,
 				3DD73F8D16E3299600B6D994 /* CalendarPreferencesViewController.xib in Resources */,
 				3D88F86D16EA42FB00265052 /* calendar.png in Resources */,
+				256F75271BDE9CD9001BE114 /* statusRed 2.png in Resources */,
 				3DE68BCA16F2203200500E40 /* list.png in Resources */,
 				3DF3DCAA1705492300F865E9 /* stats.png in Resources */,
 				3DF3DCAC1705492300F865E9 /* stats@2x.png in Resources */,
