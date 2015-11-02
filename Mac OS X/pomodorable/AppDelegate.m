@@ -522,6 +522,7 @@ void *kContextActivePanel = &kContextActivePanel;
             [self.tickSound play];
     }
     
+    [self updateStatusViewImage];
 //    if(robotOnline)
 //        [RKRGBLEDOutputCommand sendCommandWithRed:0.5 green:0.5 blue:0.0];
 }
@@ -566,6 +567,8 @@ void *kContextActivePanel = &kContextActivePanel;
 {
     EggTimer *egg = [note object];
     [self.tickSound stop];    
+    
+    [self updateStatusViewImage];
     
     if(egg.type == TimerTypeEgg)
     {
@@ -898,6 +901,15 @@ void *kContextActivePanel = &kContextActivePanel;
         panelController = [[PanelController alloc] initWithDelegate:self];
     }
     return panelController;
+}
+
+- (void)updateStatusViewImage
+{
+    EggTimer *currentTimer = [EggTimer currentTimer];
+    BOOL eggInProgress = currentTimer.type == TimerTypeEgg;
+    NSString *iconName = eggInProgress ?  @"statusRed" : @"statusGreen";
+    statusView.image = [NSImage imageNamed:iconName];
+    [statusView setNeedsDisplay:YES];
 }
 
 #pragma mark - PanelControllerDelegate
