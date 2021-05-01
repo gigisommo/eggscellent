@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		256F75461BDF7238001BE114 /* statusGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 256F75421BDF7238001BE114 /* statusGreen.png */; };
+		256F75471BDF7238001BE114 /* statusGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256F75431BDF7238001BE114 /* statusGreen@2x.png */; };
+		256F75481BDF7238001BE114 /* statusRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 256F75441BDF7238001BE114 /* statusRed.png */; };
+		256F75491BDF7238001BE114 /* statusRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256F75451BDF7238001BE114 /* statusRed@2x.png */; };
 		345E461A1A6DBE6A001F1454 /* clock.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 345E46181A6DBE6A001F1454 /* clock.m4a */; };
 		345E461B1A6DBE6A001F1454 /* gong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 345E46191A6DBE6A001F1454 /* gong.m4a */; };
 		3D0FDCE916ECED5800815B2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A5B401465F38500BFD7B2 /* main.m */; };
@@ -592,6 +596,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		256F75421BDF7238001BE114 /* statusGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = statusGreen.png; path = "Resources/status icons/statusGreen.png"; sourceTree = "<group>"; };
+		256F75431BDF7238001BE114 /* statusGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "statusGreen@2x.png"; path = "Resources/status icons/statusGreen@2x.png"; sourceTree = "<group>"; };
+		256F75441BDF7238001BE114 /* statusRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = statusRed.png; path = "Resources/status icons/statusRed.png"; sourceTree = "<group>"; };
+		256F75451BDF7238001BE114 /* statusRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "statusRed@2x.png"; path = "Resources/status icons/statusRed@2x.png"; sourceTree = "<group>"; };
 		345E46181A6DBE6A001F1454 /* clock.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = clock.m4a; sourceTree = "<group>"; };
 		345E46191A6DBE6A001F1454 /* gong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = gong.m4a; sourceTree = "<group>"; };
 		3D0FDDE316ECED5800815B2C /* Eggscellent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eggscellent.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1476,6 +1484,10 @@
 				477E65C0176B61A600D34EFB /* IsSecureIcon.png */,
 				3DF9349C16D021C500A98287 /* status@2x.png */,
 				F47AE39514EEDBDD00DFAE19 /* status.png */,
+				256F75421BDF7238001BE114 /* statusGreen.png */,
+				256F75431BDF7238001BE114 /* statusGreen@2x.png */,
+				256F75441BDF7238001BE114 /* statusRed.png */,
+				256F75451BDF7238001BE114 /* statusRed@2x.png */,
 			);
 			name = "status icons";
 			sourceTree = "<group>";
@@ -2264,6 +2276,7 @@
 				F422AFD114AA6FBA002A20ED /* ribbon2.png in Resources */,
 				F422AFD214AA6FBA002A20ED /* ribbon3.png in Resources */,
 				F422AFD314AA6FBA002A20ED /* ribbon4.png in Resources */,
+				256F75481BDF7238001BE114 /* statusRed.png in Resources */,
 				F422AFD414AA6FBA002A20ED /* ribbon5.png in Resources */,
 				F422AFD514AA6FBA002A20ED /* ribbon6.png in Resources */,
 				F422AFD614AA6FBA002A20ED /* ribbon7.png in Resources */,
@@ -2320,6 +2333,7 @@
 				F44154E4155A4ACB00DD2AB3 /* pullOutBackground.png in Resources */,
 				F4CE90C3155B463E0014FD9C /* pullOutBackgroundClip.png in Resources */,
 				F43D83F915633DD40066AE20 /* WindowController.xib in Resources */,
+				256F75461BDF7238001BE114 /* statusGreen.png in Resources */,
 				3DFBE63615A26CA30006ABB2 /* focus-card-hover@2x.png in Resources */,
 				3DFBE63715A26CA30006ABB2 /* pullOutBackground@2x.png in Resources */,
 				3DFBE63815A26CA30006ABB2 /* ribbon1@2x.png in Resources */,
@@ -2333,6 +2347,7 @@
 				3DFBE64115A26CA30006ABB2 /* button-minus@2x.png in Resources */,
 				3DFBE64215A26CA30006ABB2 /* button-plus-down@2x.png in Resources */,
 				3DFBE64315A26CA30006ABB2 /* button-plus@2x.png in Resources */,
+				256F75491BDF7238001BE114 /* statusRed@2x.png in Resources */,
 				3DFBE64415A26CA30006ABB2 /* button-start-down@2x.png in Resources */,
 				3DFBE64515A26CA30006ABB2 /* button-start@2x.png in Resources */,
 				3DFBE64615A26CA30006ABB2 /* button-stop-down@2x.png in Resources */,
@@ -2349,6 +2364,7 @@
 				3DFBE65215A26CA30006ABB2 /* prefs@2x.png in Resources */,
 				3DFBE65315A26CA30006ABB2 /* ribbon4@2x.png in Resources */,
 				3DFBE65415A26CA30006ABB2 /* ribbon5@2x.png in Resources */,
+				256F75471BDF7238001BE114 /* statusGreen@2x.png in Resources */,
 				3DFBE65515A26CA30006ABB2 /* ribbon6@2x.png in Resources */,
 				3DFBE65615A26CA30006ABB2 /* ribbon7@2x.png in Resources */,
 				3DFBE65715A26CA30006ABB2 /* ribbon8@2x.png in Resources */,
